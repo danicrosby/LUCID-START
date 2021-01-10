@@ -4,14 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../index.html">
+  <link rel="stylesheet" href="login.css">
 
-  <link rel = "stylesheet"
-         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel = "stylesheet" href = "/materialize/materialize.min.css">
-  <script type = "text/javascript"
-      src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
-    <script src = "/materialize/materialize.min.js"></script> 
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel = "stylesheet" href = "./css/materialize.css">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src = "./js/materialize.js"></script> 
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
@@ -19,19 +17,22 @@
   <title>WELCOME TO LUCID</title>
 </head>
 <body>
-  <header><h1>welcome</h1>
-  <div><a href="./LOGIN/login.html"><span class="material-icons"> cloud_queue </span></a></div>
-</header>
-  <!-- cloud will pulsate 3 times then automatically go to login page -->
-  
-  <main>
-    <article>
-      <section>
-        <div></div>
-      </section>
-    </article>
-  </main>
+  <!-- <header>
+    <h1 class="h1-index">welcome</h1>
+    <a href="LOGIN/login.html"><i class="material-icons" id="cloud"> cloud </i></a>
+  </header> -->
+  <h2>sign up</h2>
+    
+    <div class="signup-form">
+      <form action="../HOMEPAGE/homepage.html">
+        <input type="text" id="fname" name="fname" value="name"><br>
+        <input type="text" id="lname" name="lname" value="email"><br>
+        <input type="text" id="pswrd" name="pswrd" value="password"><br>
+        <button>create account</button>
+    </form> 
+  </div>
 
   
 </body>
+
 </html>
