@@ -23,6 +23,7 @@ h2 {
   margin-top: .8em;
   margin-left: 1em;
   margin-right: 3.6em;
+  text-decoration: none;
 }
 
 #add-button {
@@ -71,8 +72,6 @@ h2 {
 
 .white-card {
   display: flex;
-  flex-direction:
-  flex-wrap: nowrap;
   background-color: white;
   height: 6em;
   width: 28em;
@@ -93,18 +92,7 @@ footer {
   margin-left: 29em;
 }
 
-#education {
-
-}
-
-#stats {
-
-}
-
-#calendar {
-
-}
-
-#settings {
-
+a {
+  color: black;
+  text-decoration: none;
 }
