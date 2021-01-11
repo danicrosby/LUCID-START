@@ -36,6 +36,7 @@ h2 {
 .card-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card-container {
@@ -48,6 +49,10 @@ h2 {
 }
 
 .grey-card {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
   background-color: lightgrey;
   height: 13em;
   width: 40em;
@@ -55,21 +60,20 @@ h2 {
   border-radius: 5px;
 }
 
+#expand-arrow {
+  font-size: 3em;
+}
+
 .white-card {
   display: flex;
-  flex-direction: flex-start;
+  flex-direction:
   flex-wrap: nowrap;
   background-color: white;
-  height: 6em;
-  width: 30em;
+  height: 8em;
+  width: 35em;
   margin-top: 1em;
   margin-left: .2em;
   margin-right: .2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-}
-
-hr {
-  display: inline-flex;
-  width: 25em;
 }
