@@ -1,33 +1,46 @@
 .homepage-header {
   display: flex;
-  justify-content: center;
-  width: 50em;
-  height: 10em;
+  justify-content: flex-start;
+  width: 40em;
+  height: 7em;
   background: ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-left: 15em;
+  margin-left: 25em;
 }
-
 
 h2 {
-  display: flex;
   color: black;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Sacramento', cursive;
-  margin-top: .3em;
+  margin-top: .2em;
 }
 
-section {
+#cloud {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-left: .8em;
+  margin-right: 6.5em;
+}
+
+#add-button {
   display: flex;
   justify-content: center;
-}
+  font-size: 3em;
+  margin-top: .5em;
 
+}
 
 /* RECORDED DREAM HISTORY CARDS */
 
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+
 .card-container {
   display: flex;
+  flex-wrap: nowrap;
   height: 10em;
   width: 30em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -36,20 +49,27 @@ section {
 
 .grey-card {
   background-color: lightgrey;
-  height: 10em;
-  width: 30em;
+  height: 13em;
+  width: 40em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
 .white-card {
-  background-color: whitesmoke;
-  height: 5em;
+  display: flex;
+  flex-direction: flex-start;
+  flex-wrap: nowrap;
+  background-color: white;
+  height: 6em;
   width: 30em;
+  margin-top: 1em;
+  margin-left: .2em;
+  margin-right: .2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
 hr {
+  display: inline-flex;
   width: 25em;
 }
